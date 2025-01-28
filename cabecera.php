@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.2.1/css/dataTables.dataTables.css" />
+  <script src="https://cdn.datatables.net/2.2.1/js/dataTables.js"></script>
 </head>
 <body>
 
@@ -50,7 +52,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BD_Prueba</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="consulta_prueba.php">Consulta_Usuarios</a></li>
+            <li><a class="dropdown-item" href="consulta_prueba.php">Consulta_Usuarios</a><a class="dropdown-item" href="consulta_prueba_N°2.php">Consulta_Usuarios_N°2</a></li>
           </ul>
         </li>
       </ul>
